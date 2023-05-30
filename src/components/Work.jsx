@@ -3,7 +3,7 @@ import glowingButton from '../assets/glowingButton.gif'
 import moneyTrackingApp from '../assets/moneyTrackingApp.png'
 import springBoot from '../assets/springBoot.png'
 import todoList from '../assets/todoList.gif'
-
+import stoni from '../assets/stoni.png'
 
 const Work = () => {
   return (
@@ -88,6 +88,29 @@ const Work = () => {
                         <div className='pt-8 text-center'>
 
                             <a href='https://github.com/geekqq/nvsoftware'>
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                                    Code
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div style={{backgroundImage: `url(${stoni})`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+                    
+                    {/* Hover Effects */}
+                    <div className='opacity-0 group-hover:opacity-100'>
+                        <span className='text-21 font-bold text-white tracking-wider'>
+                            Spring Boot CRUD BackEnd
+                        </span>
+                        <div className='pt-8 text-center'>
+
+                            <a href='https://stoni.me'>
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                                    Demo
+                                </button>
+                            </a>
+                            <a href='https://github.com/geekqq/iscuu'>
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                                     Code
                                 </button>

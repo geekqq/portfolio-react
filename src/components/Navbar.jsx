@@ -1,5 +1,5 @@
 import React, {useState}from 'react'
-import {FaBars, FaTwitter, FaGithub, FaLinkedin, FaTimes} from 'react-icons/fa'
+import {FaBars, FaTwitter, FaGithub, FaLinkedin, FaTimes, FaWordpress, FaInstagram} from 'react-icons/fa'
 import stoneLogo from '../assets/stoneLogo.png'
 import {HiOutlineMail} from 'react-icons/hi'
 import {BsFillPersonLinesFill} from'react-icons/bs'
@@ -82,32 +82,39 @@ const Navbar = () => {
         <div className='hidden lg:flex fixed flex-col top-[35%] left-0'>
             <ul>
                 <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600'>
-                    <a className='flex justify-between items-center w-full text-gray-300' href='/'>
+                    <a className='flex justify-between items-center w-full text-gray-300' href='https://www.linkedin.com/in/stonehoo/'>
                         Linkedin <FaLinkedin size={30} />
                     </a>
                 </li>
 
                 <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]'>
-                    <a className='flex justify-between items-center w-full text-gray-300' href='/'>
+                    <a className='flex justify-between items-center w-full text-gray-300' href='https://github.com/geekqq'>
                         Github <FaGithub size={30} />
                     </a>
                 </li>
 
-                <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]'>
-                    <a className='flex justify-between items-center w-full text-gray-300' href='/'>
-                        Email <HiOutlineMail size={30} />
-                    </a>
-                </li>
 
-                <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]'>
-                    <a className='flex justify-between items-center w-full text-gray-300' href='/'>
+                <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600'>
+                    <a className='flex justify-between items-center w-full text-gray-300' href='https://resume.iscuu.com/'>
                         Resume <BsFillPersonLinesFill size={30} />
                     </a>
                 </li>
 
-                <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600'>
-                    <a className='flex justify-between items-center w-full text-gray-300' href='/'>
+                <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]'>
+                    <a className='flex justify-between items-center w-full text-gray-300' href='https://twitter.com/home'>
                         Twitter <FaTwitter size={30} />
+                    </a>
+                </li>
+
+                <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600'>
+                    <a className='flex justify-between items-center w-full text-gray-300' href='https://stonehoo.com/'>
+                        Blog <FaWordpress size={30} />
+                    </a>
+                </li>
+
+                <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]'>
+                    <a className='flex justify-between items-center w-full text-gray-300' href='https://instagram.com/stonehoo'>
+                        Instagram <FaInstagram size={30} />
                     </a>
                 </li>
             </ul>
