@@ -44,7 +44,7 @@ const Work = () => {
                     {/* Hover Effects */}
                     <div className='opacity-0 group-hover:opacity-100'>
                         <span className='text-21 font-bold text-white tracking-wider'>
-                            React JS Application
+                            AWS Lambda Amplify App
                         </span>
                         <div className='pt-8 text-center'>
                             <a href='https://math.iscuu.com/'>
@@ -78,7 +78,7 @@ const Work = () => {
                     {/* Hover Effects */}
                     <div className='opacity-0 group-hover:opacity-100'>
                         <span className='text-21 font-bold text-white tracking-wider'>
-                            Spring Boot CRUD BackEnd
+                            Spring Boot CRUD Backend
                         </span>
                         <div className='pt-8 text-center'>
 
@@ -96,7 +96,7 @@ const Work = () => {
                     {/* Hover Effects */}
                     <div className='opacity-0 group-hover:opacity-100'>
                         <span className='text-21 font-bold text-white tracking-wider'>
-                            Spring Boot CRUD BackEnd
+                            React JS Portfolio
                         </span>
                         <div className='pt-8 text-center'>
 
