@@ -4,6 +4,8 @@ import moneyTrackingApp from '../assets/moneyTrackingApp.png'
 import springBoot from '../assets/springBoot.png'
 import todoList from '../assets/todoList.gif'
 import stoni from '../assets/stoni.png'
+import miniecommerce from '../assets/miniecommerce.png';
+
 
 const Work = () => {
   return (
@@ -106,6 +108,24 @@ const Work = () => {
                                 </button>
                             </a>
                             <a href='https://github.com/geekqq/iscuu'>
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                                    Code
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div style={{backgroundImage: `url(${miniecommerce})`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+                    
+                    {/* Hover Effects */}
+                    <div className='opacity-0 group-hover:opacity-100'>
+                        <span className='text-21 font-bold text-white tracking-wider'>
+                            React JS Mini Ecommerce
+                        </span>
+                        <div className='pt-8 text-center'>
+
+                            <a href='https://github.com/geekqq/mini-ecommerce'>
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                                     Code
                                 </button>
