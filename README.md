@@ -1,4 +1,4 @@
-# DEMO Site
+# Demo Site
 [stonehoo.vercel.app](https://stonehoo.vercel.app)
 # Getting Started with Create React App
 
